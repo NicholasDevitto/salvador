@@ -169,4 +169,4 @@ async def background_task() -> None:
 
 bot = DallEDiscordBot(command_prefix=c['bot_prefix'], self_bot=False)
 bot.loop.create_task(background_task())
-bot.run(c['discord_token'])
+bot.run(c[process.env.discord_token])
