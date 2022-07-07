@@ -70,8 +70,8 @@ class DallEDiscordBot(commands.Bot):
         embed = discord.Embed(title=footer[0], color=footer[2])
         embed.set_author(name="https://huggingface.co", url="https://huggingface.co/spaces/dalle-mini/dalle-mini")
 
-        embed.set_thumbnail(url=footer[1])
-        embed.set_footer(text=footer[0], icon_url=footer[1])
+#         embed.set_thumbnail(url=footer[1])
+#         embed.set_footer(text=footer[0], icon_url=footer[1])
 
         return embed
 
