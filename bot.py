@@ -81,6 +81,7 @@ class DallEDiscordBot(commands.Bot):
         Gets the footer information from the config file.
         :return:
         """
+#         return [c['embed_title'], c['icon_url'], c['embed_color']]
         return [c['embed_title'], c['icon_url'], c['embed_color']]
 
     @staticmethod
