@@ -5,6 +5,6 @@ embed_title: "DALL·E mini"
 embed_color: 0x00ff00
 
 # Embed
-# default_image: https://cdn.discordapp.com/avatars/628005829840470037/8286685de0f2d7d94d94e020caf3265d.png?size=256
+default_image: https://cdn.discordapp.com/avatars/628005829840470037/8286685de0f2d7d94d94e020caf3265d.png?size=256
 # webhook_url: https://discord.com/api/webhooks/994372889526673459/Bkih97zYQZI5aVGCAmSRjw9bT9sBa0bHoBge7sJBIqFWX0UgP2zxvjCIndt9Ua55OCn7
-# icon_url: "https://cdn.discordapp.com/avatars/628005829840470037/8286685de0f2d7d94d94e020caf3265d.png?size=128"
+icon_url: "https://cdn.discordapp.com/avatars/628005829840470037/8286685de0f2d7d94d94e020caf3265d.png?size=128"
