@@ -82,7 +82,7 @@ class DallEDiscordBot(commands.Bot):
         :return:
         """
 #         return [c['embed_title'], c['icon_url'], c['embed_color']]
-        return [c['embed_title'], c['icon_url'], c['embed_color']]
+        return [c['embed_title'], c['embed_color']]
 
     @staticmethod
     async def on_ready() -> None:
