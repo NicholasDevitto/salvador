@@ -166,8 +166,6 @@ async def background_task() -> None:
     """
     pass
 
-print("env vars")
-print(os.environ)
 bot = DallEDiscordBot(command_prefix=c['bot_prefix'], self_bot=False)
 bot.loop.create_task(background_task())
-bot.run(c[os.environ.discord_token])
+bot.run(process.env.discord_token)
