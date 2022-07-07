@@ -70,8 +70,8 @@ class DallEDiscordBot(commands.Bot):
         embed = discord.Embed(title=footer[0], color=footer[2])
         embed.set_author(name="https://huggingface.co", url="https://huggingface.co/spaces/dalle-mini/dalle-mini")
 
-#         embed.set_thumbnail(url=footer[1])
-#         embed.set_footer(text=footer[0], icon_url=footer[1])
+        embed.set_thumbnail(url=footer[1])
+        embed.set_footer(text=footer[0], icon_url=footer[1])
 
         return embed
 
@@ -81,8 +81,7 @@ class DallEDiscordBot(commands.Bot):
         Gets the footer information from the config file.
         :return:
         """
-#         return [c['embed_title'], c['icon_url'], c['embed_color']]
-        return [c['embed_title'], c['embed_color']]
+        return [c['embed_title'], c['icon_url'], c['embed_color']]
 
     @staticmethod
     async def on_ready() -> None:
